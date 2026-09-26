@@ -1,0 +1,22 @@
+/* Design tokens do mockup (README → "Design tokens").
+   Paleta de protótipo interno inspirada em Bradesco Seguros — não é peça oficial da marca. */
+:root {
+  --brand-red: #e3001b;
+  --brand-red-dark: #a3061f;
+  --brand-red-tint: #fbe7eb;
+  --ink: #1b181c;
+  --ink-muted: #5b5757;
+  --border-strong: #8c8378;
+  --surface-100: #ffffff;
+  --surface-200: #f5f3f2;
+  --surface-300: #eae7e6;
+  --success: #1e8e3e;
+  --success-tint: #e9f6ec;
+  --focus-ring: #0b57d0;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-pill: 999px;
+  --shadow-card: 0 1px 3px rgba(34, 31, 31, 0.1), 0 1px 2px rgba(34, 31, 31, 0.06);
+  --shadow-fab: 0 4px 12px rgba(34, 31, 31, 0.14);
+  --font-sans: 'Bradesco Sans', 'Inter', -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,27 @@
+.chips {
+  display: flex;
+  gap: 8px;
+  padding: 6px 20px 8px;
+  overflow-x: auto;
+  flex-shrink: 0;
+}
+
+.chip {
+  height: 44px;
+  padding: 0 18px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--surface-300);
+  background: var(--surface-100);
+  color: var(--ink-muted);
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.chip[aria-pressed='true'] {
+  border-color: var(--brand-red);
+  background: var(--brand-red-tint);
+  color: var(--brand-red-dark);
+  font-weight: 700;
+}
